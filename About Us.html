@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Book Haven</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>About Book Haven</h1>
+        <input type="text" id="searchBar" placeholder="Search books..." onkeyup="searchBooks()">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Custom page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="about-container">
+            <h2>Welcome to Book Haven!</h2>
+            <p>Book Haven is an independent bookstore offering a **diverse selection** of books—from bestsellers to rare finds. 
+                Located in the heart of the city, we aim to **create a welcoming atmosphere** for book lovers of all ages.</p>
+
+            <h3>What We Offer</h3>
+            <ul>
+                <li>Curated selection of **fiction, non-fiction, and rare books**</li>
+                <li>Monthly **author events, book signings, and readings**</li>
+                <li>Friendly and knowledgeable staff ready to assist with recommendations</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="business-hours">
+        <h2>Business Hours</h2>
+        <table>
+            <tr><td>Monday - Friday</td><td>9:00 AM - 8:00 PM</td></tr>
+            <tr><td>Saturday</td><td>10:00 AM - 6:00 PM</td></tr>
+            <tr><td>Sunday</td><td>11:00 AM - 4:00 PM</td></tr>
+        </table>
+    </section>
+
+    <section class="feedback">
+    <h2>We Value Your Feedback!</h2>
+    <p>Have thoughts about Book Haven? We'd love to hear from you!</p>
+
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+
+        <label for="message">Feedback:</label>
+        <textarea id="message" placeholder="Share your thoughts..."></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <p>📞 Phone: +1 212-555-0199</p>
+        <p>📧 Email: <a href="mailto:info@bookhaven.com">info@bookhaven.com</a></p>
+        <p>📍 Address: 123 Book Street, New York, NY 10001</p>
+        <h3>Follow Us</h3>
+        <p>📘 Facebook: <a href="#">Book Haven Bookstore</a></p>
+        <p>🐦 Twitter: <a href="#">@BookHavenNYC</a></p>
+        <p>📷 Instagram: <a href="#">@BookHavenNYC</a></p>
+    </section>
+
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest book releases, special discounts, and author events.</p>
+        <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Book Haven | <a href="#">Privacy Policy</a></p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
+

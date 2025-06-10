@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven - Gallery</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Book Haven Gallery</h1>
+        <input type="text" id="searchBar" placeholder="Search books..." onkeyup="searchBooks()">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Custom page.html">Contact  Us</a></li>
+            </ul>
+        </nav>
+        <!-- Cart Button & Dropdown Menu -->
+        <button id="cartButton">
+            Cart 🛒 <span id="cartCount">0</span>
+        </button>
+        <div id="cartDropdown" class="cart-dropdown">
+            <ul id="cartItems"></ul>
+            <div class="cart-actions">
+                <button id="checkoutButton">Checkout</button>
+                <button id="clearCartButton">Clear Cart</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="Gallery/sancerons-shadow.jpg.png" alt="Sanceron's Shadowed Chronicles">
+                <div class="book-details">
+                    <h3>Sanceron's Shadowed Chronicles</h3>
+                    <p>A gripping story of love and adventure.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Gallery/glory-riders.jpg.png" alt="Glory Riders">
+                <div class="book-details">
+                    <h3>Glory Riders</h3>
+                    <p>A thrilling tale of courage and determination.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Gallery/Client3_ToteBag.png" alt="Tote Bag">
+                <div class="book-details">
+                    <h3>Eco Friendly Tote Bag</h3>
+                    <p>Eco-friendly and stylish, this durable tote bag is perfect for carrying books, groceries, or daily essentials.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Book Haven | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
